@@ -1,5 +1,9 @@
 # Coco & Co Sweet Bakes Shop
 
+## ?Link to website?
+
+
+
 Imaginary Bakery shop in Bath, offering to buy selection of English, French and Lithuanian cakes, baked from mainly locally grown produce.
 
 
@@ -9,7 +13,7 @@ to give information about location fo the shop, the main business ethos, the own
 ## Structure of website:
  ### Header and Footer: 
  * consistent trhoughout Home, About Us, On the Menu and Contact pages
- * Navigation bars and Shop's Logos in the left of the Header to allow quick access to each page without having to click Back button
+ * Navigation bars and Shop's Logo in the left of the Header to allow quick access to each page without having to click Back button
 
  * Footer Bar running though each page, giving Opening times, Location of the Ahop as well as links to social media accounts
 
