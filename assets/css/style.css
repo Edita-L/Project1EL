@@ -3,11 +3,12 @@ body {
 }
 
     h1 {
-    color: rgba(63, 57, 85, 0.966);
+    color: rgba(222, 218, 236, 0.966);
+    background-color: navy;
     font-size: 50px;
     padding-left: 30px;
     padding-right: 70px;
     border-style: solid;
     border-color: rgba(63, 57, 85, 0.966);
-
+   
 }
