@@ -9,17 +9,17 @@
 body {
     font-family: Quicksand, sans-serif;
     font-weight: 300;
+    color: #2b2727
     background-color: rgb(240, 193, 193);
 }
+ 
+h1, h2 {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 3px;
+    color: #2b2020
+}
 
-h1 {
-    font-family: 'Quicksand', sans-serif;
-    color: rgba(222, 218, 236, 0.966);
-    background-color: rgb(226, 103, 2);
-    font-size: 50px;
-    padding-left: 30px;
-    padding-right: 70px;
-    border-style: solid;
-    border-color: rgba(63, 57, 85, 0.966);
-
+#logo {
+    float: left;
+    font-size: 300%;
 }
