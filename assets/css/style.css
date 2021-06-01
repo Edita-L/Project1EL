@@ -1,14 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none
+}
+
 body {
+    font-family: Quicksand, sans-serif;
+    font-weight: 300;
     background-color: rgb(240, 193, 193);
 }
 
-    h1 {
+h1 {
+    font-family: 'Quicksand', sans-serif;
     color: rgba(222, 218, 236, 0.966);
-    background-color: navy;
+    background-color: rgb(226, 103, 2);
     font-size: 50px;
     padding-left: 30px;
     padding-right: 70px;
     border-style: solid;
     border-color: rgba(63, 57, 85, 0.966);
-   
+
 }
