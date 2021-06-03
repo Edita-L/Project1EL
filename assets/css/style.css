@@ -12,13 +12,18 @@ body {
     color: #e0eef3f5;
     background-color: rgb(61, 69, 71);
 }
- 
-h1, h2 {
+
+h1,
+h2 {
     font-family: Roboto, sans-serif;
     letter-spacing: 3px;
     color: #e0eef3f5;
 }
 
+header {
+    height: 100px;
+    background-color: cadetblue;
+}
 #logo {
     float: left;
     font-size: 250%;
@@ -32,17 +37,18 @@ h1, h2 {
 }
 
 #nav-links li {
-    float:right;
+    float: right;
     list-style-type: none;
     margin-right: 40px;
-    }
+}
 
 #nav-links a {
     text-decoration: none;
     color: inherit;
 }
 
-#logo, #nav-links {
+#logo,
+#nav-links {
     line-height: 85px;
     padding-bottom: 45px;
 }
@@ -56,60 +62,85 @@ h1, h2 {
 }
 
 #hero-outer {
-    height:600px; 
+    height: 500px;
     width: 100%;
     position: relative;
 }
+
 #intro-text {
     color: #e0eef3f5;
     font-family: Roboto, sans-serif;
-    font-size: 120%; 
+    font-size: 120%;
     letter-spacing: 2px;
     width: 500px;
     height: 200px;
     padding-top: 40px;
     padding-left: 10px;
     padding-bottom: 10px;
-    top: 80px;
+    top: 40px;
     left: 500px;
-    position: absolute; 
+    position: absolute;
 }
 
-#link-cakes  {
+#link-cakes {
     width: 200px;
     height: 50px;
-    background-color:  rgba(116, 227, 235, 0.6);
+    background-color: rgba(116, 227, 235, 0.6);
     padding-top: 40px;
     padding-left: 10px;
     padding-bottom: 10px;
-    bottom: 250px;
-    right: 700px;
-    position: absolute; 
-    border-color: rgb(99, 6, 6);
-    border-style: solid;
+    bottom: 150px;
+    right: 650px;
+    position: absolute;
+    border-color: #3a3a3a;
+    border-width: thick;
+    border-style: groove;
     border-radius: 20%;
-        }
+}
 
 #link-cakes a {
     font-family: Quciksand, sans-serif;
     font-size: 140%;
     font-weight: 500;
     letter-spacing: 3px;
-    color: #160ab8;
+    color: #3a3a3a;
     text-decoration: none;
     padding-bottom: 20px;
     padding-left: 10px;
-     }
+}
 #link-cakes a:hover {
-    color: rgb(16, 39, 165);
-    font-weight: 700;
+    border-bottom: 3px solid #3a3a3a;;
+
 }
 
-
-
-
 #hero-image {
-    height: 600px;
+    height: 500px;
     width: 100%;
     background: url('../images/hero-image6.jpg') no-repeat center center;
+    background-position: center;
+    background-size: 80%;
+    margin-top: 30px; 
+   }
+
+footer {
+    height: 100px;
+    background-color: cadetblue;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks a {
+        font-size: 140%;
+        margin: 1%;
+        padding: 1%;
+        color: #3a3a3a;
 }
