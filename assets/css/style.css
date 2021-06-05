@@ -141,7 +141,7 @@ footer {
 }
 
 .social-networks a {
-        font-size: 150%;
+        font-size: 160%;
         margin: 1%;
         padding: 1%;
         color: #3a3a3a;
@@ -155,8 +155,21 @@ footer p {
     letter-spacing: 2px;
 }
 
+#find-link {
+    text-decoration:none;
+    color: rgb(60, 60, 150);
+    font-weight: bold;
+    }
+
+#find-link a:hover {
+    color: rgb(145, 145, 163);
+    
+}
 #about-us {
     height:600px;
+    color: #202020;
+    font-family: Quciksand sans-serif;
+    letter-spacing: 2px;
         }
 
 #left-about {
@@ -174,6 +187,7 @@ footer p {
 }
 
 #center-about {
+    padding-top: 30px;
     width: 33%;
     margin: 0 auto;
     background-color: blue;
