@@ -62,10 +62,9 @@ header {
 }
 
 #hero-outer {
-    height: 500px;
+    height: 600px;
     width: 100%;
-    position: relative;
-}
+   }
 
 #intro-text {
     color: #e0eef3f5;
@@ -80,18 +79,20 @@ header {
     top: 40px;
     left: 500px;
     position: absolute;
+    top: 20%;
 }
 
 #link-cakes {
-    width: 200px;
-    height: 50px;
+   height: 50px;
     background-color: rgba(116, 227, 235, 0.6);
     padding-top: 40px;
     padding-left: 10px;
     padding-bottom: 10px;
-    bottom: 150px;
-    right: 650px;
     position: absolute;
+    left:30%;
+    top: 40%;
+    width: 20%;
+  text-align: center;
     border-color: #3a3a3a;
     border-width: thick;
     border-style: groove;
@@ -105,18 +106,19 @@ header {
     letter-spacing: 3px;
     color: #3a3a3a;
     text-decoration: none;
-    padding-bottom: 20px;
-    padding-left: 10px;
-}
+    text-align: center;
+    }
 #link-cakes a:hover {
     border-bottom: 3px solid #3a3a3a;;
 
 }
 
 #hero-image {
-    height: 500px;
+    height: 600px;
     width: 100%;
     background: url('../images/hero-image6.jpg') no-repeat center center;
+    position: absolute;
+    width: 100%;
     background-position: center;
     background-size: 80%;
     margin-top: 30px; 
@@ -139,8 +141,53 @@ footer {
 }
 
 .social-networks a {
-        font-size: 140%;
+        font-size: 150%;
         margin: 1%;
         padding: 1%;
         color: #3a3a3a;
 }
+
+footer p {
+    text-align: center;
+    font-size: 130%;
+    color: #202020;
+    font-family: Roboto sans-serif;
+    letter-spacing: 2px;
+}
+
+#about-us {
+    height:600px;
+        }
+
+#left-about {
+    padding-top: 30px;
+    width:33%;
+    float:left;
+    background-color: red;
+}
+
+#right-about {
+    padding-top: 30px;
+    width:33%;
+    float:right;
+    background-color: green;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+
+#main-about-us-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/about-us-main.jpg') no-repeat center center;
+    position: absolute;
+    width: 100%;
+    background-position: center;
+    background-size: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
