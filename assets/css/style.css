@@ -24,6 +24,7 @@ header {
     height: 100px;
     background-color: cadetblue;
 }
+
 #logo {
     float: left;
     font-size: 250%;
@@ -64,7 +65,7 @@ header {
 #hero-outer {
     height: 600px;
     width: 100%;
-   }
+}
 
 #intro-text {
     color: #e0eef3f5;
@@ -83,16 +84,16 @@ header {
 }
 
 #link-cakes {
-   height: 50px;
+    height: 50px;
     background-color: rgba(116, 227, 235, 0.6);
     padding-top: 40px;
     padding-left: 10px;
     padding-bottom: 10px;
     position: absolute;
-    left:30%;
+    left: 30%;
     top: 40%;
     width: 20%;
-  text-align: center;
+    text-align: center;
     border-color: #3a3a3a;
     border-width: thick;
     border-style: groove;
@@ -107,27 +108,27 @@ header {
     color: #3a3a3a;
     text-decoration: none;
     text-align: center;
-    }
-#link-cakes a:hover {
-    border-bottom: 3px solid #3a3a3a;;
+}
 
+#link-cakes a:hover {
+    border-bottom: 3px solid #3a3a3a;
+    ;
 }
 
 #hero-image {
     height: 600px;
-    width: 100%;
     background: url('../images/hero-image6.jpg') no-repeat center center;
     position: absolute;
     width: 100%;
     background-position: center;
-    background-size: 80%;
-    margin-top: 30px; 
-   }
+    background-size: 70%;
+    margin-top: 30px;
+}
 
 footer {
     height: 100px;
     background-color: cadetblue;
-    position:fixed;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -141,10 +142,10 @@ footer {
 }
 
 .social-networks a {
-        font-size: 160%;
-        margin: 1%;
-        padding: 1%;
-        color: #3a3a3a;
+    font-size: 160%;
+    margin: 1%;
+    padding: 1%;
+    color: #3a3a3a;
 }
 
 footer p {
@@ -156,41 +157,42 @@ footer p {
 }
 
 #find-link {
-    text-decoration:none;
+    text-decoration: none;
     color: rgb(60, 60, 150);
     font-weight: bold;
-    }
+}
 
 #find-link a:hover {
     color: rgb(145, 145, 163);
-    
+
 }
+
 #about-us {
-    height:600px;
+    height: 600px;
     color: #202020;
     font-family: Quciksand sans-serif;
     letter-spacing: 2px;
-        }
+}
 
 #left-about {
     padding-top: 40px;
     padding-left: 60px;
-    width:33%;
-    float:left;
-    }
+    width: 33%;
+    float: left;
+}
 
 #right-about {
     padding-top: 30px;
-    width:33%;
-    float:right;
-    }
+    width: 33%;
+    float: right;
+}
 
 #center-about {
     padding-top: 100px;
-    padding-left:60px;
+    padding-left: 60px;
     width: 33%;
     margin: 0 auto;
-    }
+}
 
 
 #main-about-us-image {
@@ -202,20 +204,20 @@ footer p {
     background-size: 100%;
     margin-top: 40px;
     margin-bottom: 20px;
-   }
+}
 
-   
-  #left-about p {
-      width: 60%;
-      float:inline-start;
-      line-height: 20px;
-      margin-left: 40px;
-      margin-top: 10px;
-  }
 
-  #center-about p {
+#left-about p {
     width: 60%;
-    float:inline-start;
+    float: inline-start;
+    line-height: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+#center-about p {
+    width: 60%;
+    float: inline-start;
     line-height: 20px;
     margin-left: 40px;
     margin-top: 10px;
@@ -223,16 +225,57 @@ footer p {
 
 #right-about p {
     width: 70%;
-    float:inline-start;
+    float: inline-start;
     line-height: 20px;
     margin-left: 40px;
     margin-top: 10px;
 }
 
-    /**Cakes**/
-
+/**Cakes**/
 #english {
-    height: 250px;
-    width:100%;
+    height: 240px;
+    width: 100%;
     background-color: burlywood;
+
+}
+
+#english div {
+    width: 20%;
+    float: left;
+    height: 100%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20 20 20 20;
+}
+
+#french {
+    height: 240px;
+    width: 100%;
+    background-color: rgb(168, 135, 222);
+}
+
+#french div {
+    width: 20%;
+    float: left;
+    height: 100%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20 20 20 20;
+}
+
+#lithuanian {
+    height: 240px;
+    width: 100%;
+    background-color:darkmagenta; 
+  }
+
+#lithuanian div {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20 20 20 20;
 }
