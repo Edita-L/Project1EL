@@ -244,8 +244,7 @@ footer p {
     float: left;
     height: 100%;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 30px 0 0 10px;
     margin: 20 20 20 20;
 }
 
@@ -260,22 +259,35 @@ footer p {
     float: left;
     height: 100%;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 30px 0 0 10px;
     margin: 20 20 20 20;
 }
 
 #lithuanian {
     height: 240px;
     width: 100%;
-    background-color:darkmagenta; 
-  }
+    background-color: darkmagenta;
+}
 
 #lithuanian div {
     width: 20%;
+    float: left;
     height: 100%;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 30px 0 0 10px;
     margin: 20 20 20 20;
+}
+
+.form-section  {
+    margin: 50px 10% 0 0;
+    color: rgb(41, 39, 39);
+    background-color: rgba(60, 60, 60, 0.6);
+    position: absolute;
+    left: 10%;
+    
+    clear: left;
+    background: url('../images/hero-image2.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
 }
