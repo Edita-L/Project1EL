@@ -36,26 +36,26 @@
     </header>
 
     <section class="form-section">
-        <form method="post" action="https://formdump.codeinstitute.net/">
-            <h3> Ready To Place The Order?</h3>
+        <form method="post" action="https://formdump.codeinstitute.net/" class="form">
+            <h3> Ready To Place Your Order?</h3>
 
             <label for="fname"> First Name</label>
-            <input id="fname" type="text" name="first_name" required>
+            <input id="fname" type="text" name="first_name" required class="text-input">
 
             <label for="lname"> Last Name</label>
-            <input id="lname" type="text" name="last_name" required>
+            <input id="lname" type="text" name="last_name" required class="text-input">
 
             <label for="email"> Email Address </label>
-            <input id="email" type="email" name="email_address" required>
+            <input id="email" type="email" name="email_address" required class="text-input">
 
             <label for="phone"> Phone Number </label>
-            <input id="phone" type="tel" name="phone_number" required>
+            <input id="phone" type="tel" name="phone_number" required class="text-input">
 
             <label for="collection"> Collection Date </label>
-            <input id="collection" type="datetime-local" name="collection_date" required>
+            <input id="collection" type="date" name="collection_date" required class="text-input">
 
             <label for="cakes">Choose a cake:</label>
-            <select id="cakes" name="cakes">
+            <select id="cakes" name="cakes" class="text-input">
                 <option value="victoria">Blueberry Victoria Sponge</option>
                 <option value="carrot">Carrot Cake</option>
                 <option value="brownie">Chocolate Brownie</option>
@@ -71,7 +71,7 @@
             </select>
 
             <label for="quantity">Choose quantity</label>
-            <select id="quantity" name="quantity">
+            <select id="quantity" name="quantity" class="text-input">
                 <option value="200">200g</option>
                 <option value="400">400g</option>
                 <option value="600">600g</option>
@@ -79,11 +79,12 @@
                 <option value="1kg"> 1kg</option>
                 <option value="1kg200g">1.2 kg</option>
             </select>
-            <label for="notes"> Any Comments/Notes </label>
-            <textarea id="notes" name="notes" placeholder="Write something.." style="height:200px"></textarea>
-        
-            <input type="submit" value="Place Order (we will call you to confirm and arrange payment">
             
+            <label for="comment">Type any other comments here:</label>
+            <textarea class="comment"></textarea>
+      <br>
+      <input type="submit" class="submit-order" value="Submit (we will contact you to arrange payment and collection time :))">
+
     </section>
 
 
@@ -113,10 +114,8 @@
             </li>
         </ul>
 
-        <!--font awsome script-->
-        <script src="https://kit.fontawesome.com/d23b4962c9.js" crossorigin="anonymous"></script>
-
     </footer>
+    <script src="https://kit.fontawesome.com/d23b4962c9.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
