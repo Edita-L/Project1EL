@@ -148,6 +148,10 @@ footer {
     color: #3a3a3a;
 }
 
+.social-networks a:hover {
+    color: rgb(60, 60, 150);
+}
+
 footer p {
     text-align: center;
     font-size: 130%;
@@ -162,42 +166,38 @@ footer p {
     font-weight: bold;
 }
 
-#find-link a:hover {
-    color: rgb(145, 145, 163);
+#find-link:hover {
+    color: rgb(16, 121, 56);
 
 }
 
 #about-us {
     height: 600px;
-    color: #202020;
+    color: #131212;
     font-family: Quciksand sans-serif;
     letter-spacing: 2px;
 }
 
-#left-about {
-    padding-top: 40px;
-    padding-left: 60px;
-    width: 33%;
-    float: left;
+#about-us div {
+    text-align: center;
+    font-size: large;
+    background-color: rgba(211, 211, 214, 0.3);
 }
 
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
+#about-us a {
+    text-decoration: none;
+    color: rgb(60, 60, 150);
+    font-weight: bold;
 }
 
-#center-about {
-    padding-top: 100px;
-    padding-left: 60px;
-    width: 33%;
-    margin: 0 auto;
-}
 
+#about-us a:hover {
+    color: rgb(16, 121, 56);
+}
 
 #main-about-us-image {
     height: 600px;
-    width: 50%;
+    width: 100%;
     background: url('../images/about-us-main.jpg') no-repeat center center;
     position: absolute;
     background-position: center;
@@ -207,29 +207,29 @@ footer p {
 }
 
 
-#left-about p {
-    width: 60%;
-    float: inline-start;
-    line-height: 20px;
+#left-about {
+    width: 30%;
+    float: left;
+    line-height: 25px;
     margin-left: 40px;
-    margin-top: 10px;
+    margin-top: 10%;
 }
 
-#center-about p {
-    width: 60%;
-    float: inline-start;
-    line-height: 20px;
-    margin-left: 40px;
-    margin-top: 10px;
+#right-about {
+    width: 30%;
+    float: right;
+    line-height: 25px;
+    margin-right: 40px;
+    margin-top: 10%;
 }
 
-#right-about p {
-    width: 70%;
+#center-about {
+    width: 30%;
     float: inline-start;
-    line-height: 20px;
-    margin-left: 40px;
-    margin-top: 10px;
+    line-height: 25 px;
+    margin: auto;
 }
+
 
 /**Cakes**/
 #english {
@@ -308,6 +308,7 @@ footer p {
     border: 1px solid #fafafa;
     border-radius: 2px;
 }
+
 .text-input:hover {
     border-color: #6430ac;
 }
