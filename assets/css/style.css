@@ -11,8 +11,31 @@ body {
     font-weight: 300;
     color: #e0eef3f5;
     background-color: rgb(61, 69, 71);
-   overflow:scroll;
-}
+   }
+
+   body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header, footer {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+  }
+  
+  main {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+  }
+
+  footer {
+    height: 100px;
+    background-color: cadetblue;
+    }
+
 
 h1,
 h2 {
@@ -126,13 +149,6 @@ header {
     margin-top: 30px;
 }
 
-footer {
-    height: 100px;
-    background-color: cadetblue;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
 
 .social-networks {
     text-align: center;
@@ -241,7 +257,7 @@ footer p {
 }
 
 #english {
-    height: 330px;
+    height: 400px;
     width: 100%;
     background-color: burlywood;
     padding-bottom: 30px;
@@ -293,7 +309,7 @@ footer p {
 }
 
 #french {
-    height: 330px;
+    height: 400px;
     width: 100%;
     background-color: rgb(197, 151, 98);
     padding-top: 5px;
@@ -310,7 +326,7 @@ footer p {
 }
 
 #lithuanian {
-    height: 330px;
+    height: 400px;
     width: 100%;
     background-color: rgb(221, 181, 143);
     padding-top: 10px;
