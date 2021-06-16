@@ -427,24 +427,29 @@ header {
 @media screen and (max-width: 960px) {
     #intro-text {
         font-size: 100%;
+        display: flex;
+        align-items: center;
+        left: 15%;
+        width: 60%;
+        padding-top: 10px;
+        text-align: center;
     }
 
     #hero-image {
-        width: 60%;
+        width: 90%;
+        height: 100%;
     }
 
-    #hero-image div {
-        margin: auto;
-        width: 50%;
-        padding: 10px;
-    }
 
     #link-cakes {
         font-size: 80%;
+        width: 100px;
+        left: 35%;
+        text-align: center;
     }
-    
+
     #logo {
-        font-size:100%;
+        font-size: 100%;
         padding: 0;
 
     }
@@ -454,10 +459,11 @@ header {
         font-family: Roboto, sans-serif;
         letter-spacing: 2px;
     }
-    
+
     header li {
-        display:inline-flexbox;
+        display: inline-flexbox;
     }
+
     footer {
         display: flex;
         align-items: center;
@@ -465,7 +471,35 @@ header {
 
 }
 
-@media screen and (max-width: 650px) {
-    #link-cakes {}
+@media screen and (max-width: 640px) {
+
+    #link-cakes {
+        font-size: 70%;
+        width: 80px;
+        height: 60px;
+        left: 25%;
+        text-align: center;
+        padding: 0;
+    }
+    #hero-image {
+        height:100%;
+        padding-bottom: 0;
+    }
+    #hero-image div {
+        display: flex;
+        align-items: center;
+
+    }
+
+    footer {
+        font-size: 60%;
+    }
+
+    #nav-links {
+        clear: left;
+        float: left;
+        margin-left:10px;
+        font-size: 70%;
+    }
 
 }
