@@ -11,30 +11,40 @@ body {
     font-weight: 300;
     color: #e0eef3f5;
     background-color: rgb(61, 69, 71);
-   }
+}
 
-   body {
+body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-  }
-  
-  header, footer {
+}
+
+header,
+footer {
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: auto;
-  }
-  
-  main {
+}
+
+main {
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
-  }
+}
 
-  footer {
-    height: 100px;
+footer {
+
     background-color: cadetblue;
-    }
+}
+
+footer p {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 130%;
+    color: #202020;
+    font-family: Roboto sans-serif;
+    letter-spacing: 2px;
+}
 
 
 h1,
@@ -101,10 +111,11 @@ header {
     padding-top: 40px;
     padding-left: 10px;
     padding-bottom: 10px;
-    top: 40px;
-    left: 500px;
     position: absolute;
-    top: 20%;
+    left: 30%;
+    top: 5%;
+
+
 }
 
 #link-cakes {
@@ -169,14 +180,7 @@ header {
     color: rgb(60, 60, 150);
 }
 
-footer p {
-    padding-top: 5px;
-    text-align: center;
-    font-size: 130%;
-    color: #202020;
-    font-family: Roboto sans-serif;
-    letter-spacing: 2px;
-}
+
 
 #find-link {
     text-decoration: none;
@@ -188,6 +192,8 @@ footer p {
     color: rgb(16, 121, 56);
 
 }
+
+/**about us page**/
 
 #about-us {
     height: 600px;
@@ -314,7 +320,7 @@ footer p {
     background-color: rgb(197, 151, 98);
     padding-top: 5px;
     padding-left: 30px;
-    padding-bottom:30px;
+    padding-bottom: 30px;
 }
 
 #french div {
@@ -338,7 +344,7 @@ footer p {
     width: 20%;
     height: 100%;
     text-align: center;
-    float:left;
+    float: left;
     display: inline-block;
 }
 
@@ -360,7 +366,7 @@ footer p {
     background: url('../images/hero-image2.jpg');
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 700px;
 
 }
 
@@ -414,4 +420,52 @@ footer p {
 
 .submit-order:hover {
     background-color: #227e06;
+}
+
+/**media queries**/
+
+@media screen and (max-width: 960px) {
+    #intro-text {
+        font-size: 100%;
+    }
+
+    #hero-image {
+        width: 60%;
+    }
+
+    #hero-image div {
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+    }
+
+    #link-cakes {
+        font-size: 80%;
+    }
+    
+    #logo {
+        font-size:100%;
+        padding: 0;
+
+    }
+
+    #nav-links {
+        font-size: 80%;
+        font-family: Roboto, sans-serif;
+        letter-spacing: 2px;
+    }
+    
+    header li {
+        display:inline-flexbox;
+    }
+    footer {
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    #link-cakes {}
+
 }
