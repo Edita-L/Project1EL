@@ -366,16 +366,19 @@ header {
     background: url('../images/hero-image2.jpg');
     background-size: cover;
     background-position: center;
-    height: 700px;
+    height: 80vh;
+    
+    margin-top:40px;
+
 
 }
 
 .form {
-    margin: 50px 10% 0 0;
+    margin-top: 40px;
     color: black;
     text: bold;
     background-color: rgba(218, 224, 224, 0.829);
-    max-width: 600px;
+    width: 50vw;
     max-height: 900px;
     position: absolute;
     left: 10%;
@@ -392,13 +395,18 @@ header {
     border-radius: 2px;
 }
 
+.text-input label {
+    color: black;
+}
+
+
 .text-input:hover {
     border-color: #6430ac;
 }
 
 .comment {
     width: 100%;
-    height: 100px;
+    height: 200px;
     margin: 5px 0 10px 0;
     background-color: rgba(219, 212, 212, 0.795);
     border: 1px solid #fafafa;
@@ -413,9 +421,10 @@ header {
     font-size: 90%;
     background-color: #69475c;
     color: #fafafa;
-    display: block;
     font-family: Roboto sans-serif;
     letter-spacing: 2px;
+    width: 95%;
+    white-space: normal;
 }
 
 .submit-order:hover {
@@ -466,6 +475,8 @@ header {
         bottom: 0;
         position: fixed;
     }
+
+    .form {}
 
 }
 
