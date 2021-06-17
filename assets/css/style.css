@@ -425,28 +425,24 @@ header {
 /**media queries**/
 
 @media screen and (max-width: 960px) {
-    #intro-text {
-        font-size: 100%;
-        display: flex;
-        align-items: center;
-        left: 15%;
-        width: 60%;
-        padding-top: 10px;
-        text-align: center;
-    }
+
 
     #hero-image {
-        width: 90%;
-        height: 100%;
+        min-height: 100%;
+        min-width: 1024px;
+
+        /* Set up proportionate scaling */
+        width: 100%;
+        height: auto;
+
+        /* Set up positioning */
+        position: fixed;
+        top: 0;
+
+        left: 50%;
+        margin-left: -512px;
     }
 
-
-    #link-cakes {
-        font-size: 80%;
-        width: 100px;
-        left: 35%;
-        text-align: center;
-    }
 
     #logo {
         font-size: 100%;
@@ -465,29 +461,22 @@ header {
     }
 
     footer {
-        display: flex;
-        align-items: center;
+
+        font-size: 80%;
+        bottom: 0;
+        position: fixed;
     }
 
 }
 
 @media screen and (max-width: 640px) {
 
-    #link-cakes {
-        font-size: 70%;
-        width: 80px;
-        height: 60px;
-        left: 25%;
-        text-align: center;
-        padding: 0;
-    }
-    #hero-image {
-        height:100%;
-        padding-bottom: 0;
-    }
-    #hero-image div {
-        display: flex;
-        align-items: center;
+    #intro-text {
+        font-size: 90%;
+        width: 70vw;
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 40px;
 
     }
 
@@ -498,8 +487,50 @@ header {
     #nav-links {
         clear: left;
         float: left;
-        margin-left:10px;
-        font-size: 70%;
+        margin-left: 10px;
+        font-size: 90%;
+
+
     }
 
-}
+
+    @media screen and (max-width: 520px) {
+        #intro-text {
+            font-size: 80%;
+            width: 30%;
+            height: 50%;
+            margin-top: 50px;
+            margin-right: 10px;
+
+        }
+
+        #link-cakes {
+            text-align: center;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            margin-left: 5%;
+            font-size: 70%;
+            width: 20%;
+        }
+
+        @media screen and (max-width: 400px) {
+            #intro-text {
+
+                width: 25%;
+                height: 20%;
+                margin-top: 10%;
+                margin-right: 10px;
+                margin-left: 5%;
+
+            }
+
+            #link-cakes {
+                margin-left: 10%;
+                font-size: 80%;
+                width: 15%;
+            }
+
+            #nav-links {
+                margin-left: 5px;
+                font-size: 55%;
+            }
