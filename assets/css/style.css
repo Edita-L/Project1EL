@@ -24,6 +24,8 @@ footer {
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: auto;
+
+
 }
 
 main {
@@ -194,18 +196,36 @@ header {
 }
 
 /**about us page**/
+#about-h1 {
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+#about-h3 {
+    text-align: center;
+
+}
 
 #about-us {
-    height: 600px;
+
     color: #131212;
     font-family: Quciksand sans-serif;
     letter-spacing: 2px;
+    display: flex;
+    justify-content: first baseline;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10%;
+
+
 }
 
 #about-us div {
     text-align: center;
     font-size: large;
     background-color: rgba(211, 211, 214, 0.3);
+    padding: 30px;
 }
 
 #about-us a {
@@ -220,39 +240,17 @@ header {
 }
 
 #main-about-us-image {
-    height: 600px;
+    height: 75%;
     width: 100%;
     background: url('../images/about-us-main.jpg') no-repeat center center;
     position: absolute;
     background-position: center;
     background-size: 100%;
-    margin-top: 40px;
-    margin-bottom: 20px;
+
+
 }
 
 
-#left-about {
-    width: 30%;
-    float: left;
-    line-height: 25px;
-    margin-left: 40px;
-    margin-top: 10%;
-}
-
-#right-about {
-    width: 30%;
-    float: right;
-    line-height: 25px;
-    margin-right: 40px;
-    margin-top: 10%;
-}
-
-#center-about {
-    width: 30%;
-    float: inline-start;
-    line-height: 25 px;
-    margin: auto;
-}
 
 
 /**Cakes**/
@@ -267,8 +265,8 @@ header {
     width: 100%;
     background-color: burlywood;
     padding-bottom: 30px;
-    padding-left: 30px;
-
+    padding-left: 70px;
+    align-items: center;
 }
 
 #english div {
@@ -319,8 +317,9 @@ header {
     width: 100%;
     background-color: rgb(197, 151, 98);
     padding-top: 5px;
-    padding-left: 30px;
+    padding-left: 70px;
     padding-bottom: 30px;
+    align-items: center;
 }
 
 #french div {
@@ -336,7 +335,8 @@ header {
     width: 100%;
     background-color: rgb(221, 181, 143);
     padding-top: 10px;
-    padding-left: 30px;
+    padding-left: 70px;
+    padding-bottom: 30px;
 
 }
 
@@ -346,6 +346,8 @@ header {
     text-align: center;
     float: left;
     display: inline-block;
+
+
 }
 
 .lith-gallery:hover {
@@ -367,8 +369,8 @@ header {
     background-size: cover;
     background-position: center;
     height: 80vh;
-    
-    margin-top:40px;
+
+    margin-top: 40px;
 
 
 }
@@ -380,6 +382,7 @@ header {
     background-color: rgba(218, 224, 224, 0.829);
     width: 50vw;
     max-height: 900px;
+    height: 65vh;
     position: absolute;
     left: 10%;
     padding: 30px;
@@ -406,7 +409,7 @@ header {
 
 .comment {
     width: 100%;
-    height: 200px;
+    height: 100px;
     margin: 5px 0 10px 0;
     background-color: rgba(219, 212, 212, 0.795);
     border: 1px solid #fafafa;
@@ -476,72 +479,105 @@ header {
         position: fixed;
     }
 
-    .form {}
-
-}
-
-@media screen and (max-width: 640px) {
-
-    #intro-text {
-        font-size: 90%;
-        width: 70vw;
-        margin-top: 50px;
-        margin-left: 10px;
-        margin-right: 40px;
-
-    }
-
-    footer {
-        font-size: 60%;
-    }
-
-    #nav-links {
-        clear: left;
-        float: left;
-        margin-left: 10px;
-        font-size: 90%;
+    #main-about-us-image {
+        min-height: 100%;
+        min-width: 1024px;
 
 
+        width: 100%;
+        height: auto;
+
+
+        position: fixed;
+        top: 0;
+
+        left: 50%;
+        margin-left: -512px;
     }
 
 
-    @media screen and (max-width: 520px) {
+    #about-h1 {
+        display: none;
+
+    }
+
+    #about-us {
+
+        display: flex;
+        flex-direction: column;
+        justify-content:baseline;
+        margin-top:25%;
+        width:70%;
+        
+    }
+
+    #about-us div {
+        padding:10px;
+        height:auto;
+    }
+
+    @media screen and (max-width: 640px) {
+
         #intro-text {
-            font-size: 80%;
-            width: 30%;
-            height: 50%;
+            font-size: 90%;
+            width: 70vw;
             margin-top: 50px;
-            margin-right: 10px;
+            margin-left: 10px;
+            margin-right: 40px;
 
         }
 
-        #link-cakes {
-            text-align: center;
-            padding-left: 10px;
-            padding-bottom: 10px;
-            margin-left: 5%;
-            font-size: 70%;
-            width: 20%;
+        footer {
+            font-size: 60%;
         }
 
-        @media screen and (max-width: 400px) {
+        #nav-links {
+            clear: left;
+            float: left;
+            margin-left: 10px;
+            font-size: 90%;
+
+
+        }
+
+
+        @media screen and (max-width: 520px) {
             #intro-text {
-
-                width: 25%;
-                height: 20%;
-                margin-top: 10%;
+                font-size: 80%;
+                width: 30%;
+                height: 50%;
+                margin-top: 50px;
                 margin-right: 10px;
-                margin-left: 5%;
 
             }
 
             #link-cakes {
-                margin-left: 10%;
-                font-size: 80%;
-                width: 15%;
+                text-align: center;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                margin-left: 5%;
+                font-size: 70%;
+                width: 20%;
             }
 
-            #nav-links {
-                margin-left: 5px;
-                font-size: 55%;
-            }
+            @media screen and (max-width: 400px) {
+                #intro-text {
+
+                    width: 25%;
+                    height: 20%;
+                    margin-top: 10%;
+                    margin-right: 10px;
+                    margin-left: 5%;
+
+                }
+
+                #link-cakes {
+                    margin-left: 10%;
+                    font-size: 80%;
+                    width: 15%;
+                }
+
+                #nav-links {
+                    margin-left: 5px;
+                    font-size: 55%;
+                }
