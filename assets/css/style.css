@@ -505,15 +505,16 @@ header {
 
         display: flex;
         flex-direction: column;
-        justify-content:baseline;
-        margin-top:25%;
-        width:70%;
-        
+        margin-top: 25%;
+        width: 70%;
+        padding-left: 5%;
+
+
     }
 
     #about-us div {
-        padding:10px;
-        height:auto;
+        padding: 10px;
+        height: auto;
     }
 
     @media screen and (max-width: 640px) {
@@ -540,6 +541,16 @@ header {
 
         }
 
+        #about-us  {
+           
+            width: 45%;
+            padding-left:15%;
+            align-items: stretch;
+        
+        }
+
+       
+
 
         @media screen and (max-width: 520px) {
             #intro-text {
@@ -558,6 +569,14 @@ header {
                 margin-left: 5%;
                 font-size: 70%;
                 width: 20%;
+            }
+
+            #about-us  {
+           
+                width: 35%;
+                padding-left:22%;
+                align-items: stretch;
+            
             }
 
             @media screen and (max-width: 400px) {
