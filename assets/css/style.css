@@ -436,6 +436,31 @@ header {
 
 /**media queries**/
 
+@media screen and (max-width: 1220px) {
+
+    .english-gallery img {
+        width: 70%;
+        height: 30%;
+        ;
+
+    }
+
+    .french-gallery img {
+        width: 70%;
+        height: 30%;
+
+
+    }
+
+    .lith-gallery img {
+        width: 70%;
+        height: 30%;
+
+
+    }
+}
+
+
 @media screen and (max-width: 960px) {
 
 
@@ -516,87 +541,95 @@ header {
         padding: 10px;
         height: auto;
     }
+}
 
-    @media screen and (max-width: 640px) {
+@media screen and (max-width: 740px) {
 
-        #intro-text {
-            font-size: 90%;
-            width: 70vw;
-            margin-top: 50px;
-            margin-left: 10px;
-            margin-right: 40px;
-
-        }
-
-        footer {
-            font-size: 60%;
-        }
-
-        #nav-links {
-            clear: left;
-            float: left;
-            margin-left: 10px;
-            font-size: 90%;
-
-
-        }
-
-        #about-us  {
-           
-            width: 45%;
-            padding-left:15%;
-            align-items: stretch;
-        
-        }
-
+    #lithuanian  {
        
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    #intro-text {
+        font-size: 90%;
+        width: 70vw;
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 40px;
+
+    }
+
+    footer {
+        font-size: 60%;
+    }
+
+    #nav-links {
+        clear: left;
+        float: left;
+        margin-left: 10px;
+        font-size: 90%;
 
 
-        @media screen and (max-width: 520px) {
+    }
+
+    #about-us {
+
+        width: 45%;
+        padding-left: 15%;
+        align-items: stretch;
+
+    }
+
+
+
+
+    @media screen and (max-width: 520px) {
+        #intro-text {
+            font-size: 80%;
+            width: 30%;
+            height: 50%;
+            margin-top: 50px;
+            margin-right: 10px;
+
+        }
+
+        #link-cakes {
+            text-align: center;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            margin-left: 5%;
+            font-size: 70%;
+            width: 20%;
+        }
+
+        #about-us {
+
+            width: 35%;
+            padding-left: 22%;
+            align-items: stretch;
+
+        }
+
+        @media screen and (max-width: 400px) {
             #intro-text {
-                font-size: 80%;
-                width: 30%;
-                height: 50%;
-                margin-top: 50px;
+
+                width: 25%;
+                height: 20%;
+                margin-top: 10%;
                 margin-right: 10px;
+                margin-left: 5%;
 
             }
 
             #link-cakes {
-                text-align: center;
-                padding-left: 10px;
-                padding-bottom: 10px;
-                margin-left: 5%;
-                font-size: 70%;
-                width: 20%;
+                margin-left: 10%;
+                font-size: 80%;
+                width: 15%;
             }
 
-            #about-us  {
-           
-                width: 35%;
-                padding-left:22%;
-                align-items: stretch;
-            
+            #nav-links {
+                margin-left: 5px;
+                font-size: 55%;
             }
-
-            @media screen and (max-width: 400px) {
-                #intro-text {
-
-                    width: 25%;
-                    height: 20%;
-                    margin-top: 10%;
-                    margin-right: 10px;
-                    margin-left: 5%;
-
-                }
-
-                #link-cakes {
-                    margin-left: 10%;
-                    font-size: 80%;
-                    width: 15%;
-                }
-
-                #nav-links {
-                    margin-left: 5px;
-                    font-size: 55%;
-                }
