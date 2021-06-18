@@ -262,15 +262,15 @@ header {
 
 #english {
     height: 400px;
-    width: 95%;
-    padding-left:5%;
+    width: 96%;
+    padding-left:4%;
     align-items: center;
     background-color: burlywood;
     padding-bottom: 30px;
 }
 
 #english div {
-    width: 20%;
+    width: 24%;
     float: left;
     height: 100%;
     text-align: center;
@@ -313,9 +313,9 @@ header {
 }
 
 #french {
-    
-    width: 95%;
-    padding-left:5%;
+    height: 400px;
+    width: 96%;
+    padding-left:4%;
     background-color: rgb(197, 151, 98);
     padding-top: 5px;
     padding-bottom: 30px;
@@ -323,7 +323,7 @@ header {
 }
 
 #french div {
-    width: 20%;
+    width: 24%;
     height: 100%;
     text-align: center;
     float: left;
@@ -332,8 +332,8 @@ header {
 
 #lithuanian {
     height: 400px;
-    width: 95%;
-    padding-left:5%;
+    width: 96%;
+    padding-left:4%;
     background-color: rgb(221, 181, 143);
     padding-top: 10px;
    padding-bottom: 30px;
@@ -341,7 +341,7 @@ header {
 }
 
 #lithuanian div {
-    width: 20%;
+    width: 24%;
     height: 100%;
     text-align: center;
     float: left;
@@ -440,21 +440,21 @@ header {
 
     .english-gallery img {
         width: 70%;
-        height: 30%;
+        height: 40%;
         ;
 
     }
 
     .french-gallery img {
         width: 70%;
-        height: 30%;
+        height: 40%;
 
 
     }
 
     .lith-gallery img {
         width: 70%;
-        height: 30%;
+        height: 40%;
 
 
     }
