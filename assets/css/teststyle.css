@@ -117,48 +117,81 @@ a img {
 
 /*new style*/
 
-.main_header {
-    max-width: 1200px;
-    width:100%;
+.main_header,
+.main_footer {
+    /**do i need this? max-width: 1200px;**/
+    width: 100%;
     margin: 0 auto;
     background-color: rgb(65, 187, 224);
+
 }
 
-.row {
+.main_footer {
+    text-align: center;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+
+
+.testbody {
+    background-color: teal;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+#main-about-us-image {
+    
+    width: 100%;
+    background: url('../images/about-us-main.jpg') no-repeat center center;
+    
+    background-size: 100%;
+}
+
+.headerrow {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-left: 2rem;
+    padding-top: 2rem;
 
 }
 
-.column_25, .column_75 {
-   flex-basis: 100%;
+.headercolumn_25,
+.headercolumn_75 {
+    flex-basis: 100%;
 }
+
+#nav-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: right;
+    list-style-type: none;
+    padding-right: 2%;
+}
+
+#nav-links a {
+    text-decoration: none;
+    letter-spacing: 3px;
+    padding-left: 30px;
+}
+
+
 
 @media screen and (min-width: 800px) {
-    
-    .column_25 {
+
+    .headercolumn_25 {
         flex: 2.5;
     }
 
-    .column_75 {
+    .headercolumn_75 {
         flex: 7.5;
     }
-}
-
-/* Style */
-
-body {
-    font-family: 'Lato', sans-serif;
-    font-size: 1.3em;
-    color: rgb(2, 3, 10);
-    background: rgb(148, 143, 143);
-    margin-bottom: 70px;
-}
-
-
-
-h1,
-h2 {
-    text-align: center;
 }
