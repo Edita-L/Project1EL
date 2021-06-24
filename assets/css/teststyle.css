@@ -127,9 +127,8 @@ a img {
     color: #e0eef3f5;
 }
 
-.active {
-  
-  border-bottom: 2px solid #e0eef3f5;
+.active span{
+    border-bottom: 2px solid #e0eef3f5;
 }
 
 .headercolumn_25 a {
@@ -207,10 +206,6 @@ a img {
     padding-right: 2%;
 }
 
-
-  
-  
-
 #nav-links a {
     text-decoration: none;
     letter-spacing: 3px;
@@ -227,14 +222,15 @@ a img {
 
 /*test-aboutus style*/
 #main-about-us-image {
-
+    
     width: 100%;
     background: url('../images/about-us-main.jpg') no-repeat center center;
-    background-size: 100%;
+    background-size: cover;
 }
 
-#about-h1 {
-    color: #e0eef3f5;
+.about-h1,
+.order-h1 {
+    color: rgb(8, 109, 124);
     text-align: center;
     font-family: Roboto, sans-serif;
     letter-spacing: 3px;
@@ -270,9 +266,9 @@ a img {
 
 }
 
-.left-33,
-.center-34,
-.right-33 {
+.aboutleft-33,
+.aboutcenter-34,
+.aboutright-33 {
     flex-basis: 100%;
     color: rgba(10, 5, 5, 0.89);
     padding: 10%;
@@ -286,8 +282,6 @@ a img {
 }
 
 
-
-
 @media screen and (min-width: 800px) {
 
     .headercolumn_25 {
@@ -298,14 +292,80 @@ a img {
         flex: 7.5;
     }
 
-    .left-33,
-    .right-33 {
+    .aboutleft-33,
+    .aboutright-33 {
         flex: 3.3;
     }
 
-    .center-34 {
+    .aboutcenter-34 {
         flex: 3.4;
     }
 
+}
 
+/* test-order style */
+
+.form-section {
+    
+    width: 100%;
+    background: url('../images/hero-image2.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.order-form {
+    background-color: rgba(218, 224, 224, 0.829);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    padding-top:20px;
+    padding-bottom:20px;   
+    }
+
+.order-form label {
+    background-color;
+    font-family: Roboto, sans-serif;
+    color: rgb(8, 109, 124); 
+    text-align: right;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.text-input {
+    background-color: rgba(219, 212, 212, 0.795);
+    font-family: Roboto, sans-serif;
+    color: rgb(8, 109, 124);   
+    width: 50vw;
+    font-size: medium;
+    border:2px solid rgb(102, 100, 91);
+}
+
+.comment {
+    width:50vw;
+    height: 200px;
+    margin: 5px 0 10px 0;
+    background-color: rgba(219, 212, 212, 0.795);
+    border:2px solid rgb(102, 100, 91);
+    
+}
+
+.order-submit {
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+    color: rgb(9, 58, 42); 
+    background-color: goldenrod;
+    display:inline-block;  
+    font-size: 16px;
+    width:100px;
+    border:2px solid rgb(102, 100, 91);
+}
+
+.order-submit:hover {
+    background-color: rgb(8, 109, 124);
+    color: #e0eef3f5;
+}
+
+.order-h1 {
+    background-color: rgba(205, 205, 214, 0.795);
+    font-size: large;
+    padding:20px;
 }
