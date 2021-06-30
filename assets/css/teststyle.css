@@ -1,130 +1,18 @@
-/* CSS reset */
-
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background: rgb(169, 151, 209);
-    padding: 15px 0 30px 0;
-    font: 11px arial, helvetica, sans-serif;
-}
-
-h1 {
-    padding: 0 0 15px 0;
-}
-
-h2 {
-    padding: 5px 0 0 0;
-}
-
-label,
-select {
-    cursor: pointer;
-}
-
-li {
-    line-height: 15px;
-    margin: 5px 0 0 0;
-}
-
-ol,
-ul {
-    padding: 0 0 10px 35px;
-}
-
-p {
-    line-height: 15px;
-    padding: 0 0 10px 0;
-}
-
-textarea,
-input {
-    font: 11px arial, helvetica, sans-serif;
-    padding: 2px;
-}
-
-
-.clear {
-    clear: both;
-}
-
-.input {
-    border: 1px solid #ccc;
-    padding: 2px;
-}
-
-.page-break,
-.print-only {
-    display: none;
-}
-
-.point {
-    cursor: pointer;
-}
-
-
-a {
-    color: inherit;
-}
-
-a:link,
-a:visited {
-    color: #00f;
-    text-decoration: underline;
-}
-
-a:hover,
-a:active {
-    color: #00f;
-    text-decoration: none;
-}
-
-a img {
-    border: 0;
-}
-
-@media print {
-
-
-    body {
-        color: #000;
-        font-size: 9pt;
-    }
-
-
-    #wrap {
-        width: 600px;
-    }
-
-
-    .print-only {
-        display: block;
-    }
-
-    .page-break {
-        page-break-before: always;
-    }
-
-
-    a {
-        text-decoration: underline;
-        color: #999;
-    }
-}
-
 /*new style*/
 
 .main_header,
 .main_footer {
-    /**do i need this? max-width: 1200px;**/
+    /**do i need this: max-width: 1200px;**/
     width: 100%;
     margin: 0 auto;
     background-color: cadetblue;
     font-family: Roboto, sans-serif;
     color: #e0eef3f5;
+}
+
+
+#logo {
+    font-size: 2.5rem;
 }
 
 .active span {
@@ -163,7 +51,7 @@ a img {
 
 .social-networks {
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .social-networks a:hover {
@@ -187,6 +75,7 @@ a img {
     flex-wrap: wrap;
     padding-left: 2rem;
     padding-top: 2rem;
+
 
 }
 
@@ -217,6 +106,15 @@ a img {
 #nav-links a:hover {
     color: indigo;
 
+}
+
+@media screen and (max-width: 700px) {
+    #nav-links {
+        float: none;
+        display: block;
+        text-align: left;
+        line-height: 25px;
+    }
 }
 
 
@@ -411,66 +309,50 @@ a img {
     background: url('../images/hero-image6.jpg') no-repeat center center;
     background-size: cover;
     height: 650px;
-}
 
-
-
-.home-intro-flex {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    align-content: center;
 
 }
 
-.home-intro-flex div {
-    flex: 100%;
-}
 
-.cake-btn {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: cadetblue;
-    padding: 16px 30px;
-    border: 2px solid #e0eef3f5;
-    border-radius: 5px;
+/**testindex centre div**/
+
+.jumbotron {
+
+    width: 50%;
+    padding: 3rem 1rem;
+    border-radius: 0.3rem;
     text-align: center;
+    background: rgba(204, 204, 204, 0.3);
+    font-size: 1.3rem;
+    font-family: Quicksand, sans-serif;
+    color: #e0eef3f5;
+
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+
 }
 
-.cake-btn a {
+.btn-cakes {
+    background-color: rgb(8, 109, 124);
+    font-size: 1.5rem;
+
+}
+
+.btn-cakes a {
     text-decoration: none;
     font-family: Roboto, sans-serif;
     color: #e0eef3f5;
-    font-size: 25px;
-    letter-spacing: 1px;
 }
 
-.cake-btn a:hover {
-    color: indigo;
-    border-bottom: 2px solid indigo;
+.btn-cakes a:hover {
+    background-color: indigo;
 }
 
-#intro-text {
-    font-family: Roboto, sans-serif;
-    font-weight: 600;
-    color: #e0eef3f5;
-    font-size: 1rem;
-    letter-spacing: 1px;
-    text-align: center;
-    width: 45%;
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    
-}
 
-#intro-text p {
-    line-height: 1.6;
-}
 
 /**test-cakes**/
 .cake-h1 {
@@ -520,24 +402,13 @@ a img {
 
 .cakes-h3 {
     padding-bottom: 10px;
-    padding-top:10px;
+    padding-top: 10px;
     color: #e0eef3f5;
     text-align: center;
     font-size: 20px;
     background-color: rgba(191, 191, 223, 0.795);
-}    
-
-
-
-
-.english-gallery:hover {
-    border: 2px solid rgb(222, 235, 238);
 }
 
-.french-gallery:hover {
-    border: 2px solid rgb(222, 235, 238);
-}
 
-.lith-gallery:hover {
-    border: 2px solid rgb(222, 235, 238);
-}
+
+

@@ -263,7 +263,7 @@ header {
 #english {
     height: 400px;
     width: 96%;
-    padding-left:4%;
+    padding-left: 4%;
     align-items: center;
     background-color: burlywood;
     padding-bottom: 30px;
@@ -315,7 +315,7 @@ header {
 #french {
     height: 400px;
     width: 96%;
-    padding-left:4%;
+    padding-left: 4%;
     background-color: rgb(197, 151, 98);
     padding-top: 5px;
     padding-bottom: 30px;
@@ -333,10 +333,10 @@ header {
 #lithuanian {
     height: 400px;
     width: 96%;
-    padding-left:4%;
+    padding-left: 4%;
     background-color: rgb(221, 181, 143);
     padding-top: 10px;
-   padding-bottom: 30px;
+    padding-bottom: 30px;
 
 }
 
@@ -369,10 +369,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 80vh;
-
     margin-top: 40px;
-
-
 }
 
 .form {
@@ -541,7 +538,7 @@ header {
         padding: 10px;
         height: auto;
     }
-    
+
 
 }
 
