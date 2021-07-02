@@ -10,20 +10,46 @@
     color: #e0eef3f5;
 }
 
+.main_header a {
+    text-decoration: none;
+}
 
 #logo {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-family: Roboto, sans-serif;
+    padding-bottom: 20px;
+    padding-top:20px;
+    padding-left:10px;
+    color: #e0eef3f5;
+    
+}
+
+#logo:hover {
+    color:indigo;
+}
+
+.pure-menu-link {
+    color: #e0eef3f5;
+    font-family: Quicksand, sans-serif;
+    font-size: 1.3rem;
+}
+
+
+
+.pure-menu-link:hover {
+    background-color: cadetblue;
+    color:indigo;
+    
 }
 
 .active span {
     border-bottom: 2px solid #e0eef3f5;
 }
 
+
 .headercolumn_25 a {
     text-decoration: none;
-    letter-spacing: 3px;
     color: #e0eef3f5;
-    font-size: 2em;
 
 }
 
@@ -93,6 +119,7 @@
     text-align: center;
     list-style-type: none;
     padding-right: 2%;
+    padding-top: 30px;
 }
 
 #nav-links a {
@@ -309,7 +336,6 @@
     background: url('../images/hero-image6.jpg') no-repeat center center;
     background-size: cover;
     height: 650px;
-
     display: flex;
     align-content: center;
 
@@ -324,11 +350,10 @@
     padding: 3rem 1rem;
     border-radius: 0.3rem;
     text-align: center;
-    background: rgba(204, 204, 204, 0.3);
+    background: rgba(204, 204, 204, 0.164);
     font-size: 1.3rem;
     font-family: Quicksand, sans-serif;
     color: #e0eef3f5;
-
     margin-left: 20%;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -408,7 +433,10 @@
     font-size: 20px;
     background-color: rgba(191, 191, 223, 0.795);
 }
-
-
-
-
+@media screen and (max-width: 440px) {
+    .pure-menu-link  {
+        padding:5px;
+        font-size:1rem;
+        
+    }
+}

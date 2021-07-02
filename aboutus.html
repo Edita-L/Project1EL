@@ -7,43 +7,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Coco&Co set bakes shop in Bath UK">
     <meta name="keywords" content="cake shop, sweet bakes, Bath, UK">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>About Us</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css"
+        integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+    <link rel="reset" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/teststyle.css">
+    <title>Test About Us</title>
 </head>
 
-<body>
-    <header>
-        <a href="index.html">
-            <h1 id="logo"> Coco & Co</h1>
-        </a>
-        <nav>
-            <ul id="nav-links">
-                <li>
-                    <a href="aboutus.html" class="active"> About Us</a>
-                </li>
-                <li>
-                    <a href="order.html"> Order</a>
-                </li>
+<body class="testbody">
 
-                <li>
-                    <a href="cakes.html">Cakes </a>
+    <header class="main_header">
+        <div>
+            <a href="index.html">
+                <h1 id="logo"> Coco & Co</h1>
+            </a>
+        </div>
+        <div class="pure-menu pure-menu-horizontal">
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item">
+                    <a href="index.html" class="pure-menu-link">Home</a>
                 </li>
-                <li>
-                    <a href="index.html">Home</a>
+                <li class="pure-menu-item">
+                    <a href="cakes.html" class="pure-menu-link">Cakes</a>
                 </li>
-                <li>
-                    <a href="test-index.html">Test Home</a>
+                <li class="pure-menu-item">
+                    <a href="order.html" class="pure-menu-link">Order</a>
+                </li>
+                <li class="pure-menu-item">
+                    <a href="aboutus.html" class="active pure-menu-link">
+                        <span>About Us </span></a>
                 </li>
             </ul>
+        </div>
+        <!--
+            <div class="headercolumn_75" >
+                <nav>
+                    <ul id="nav-links">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="cakes.html">
+                                <span> Cakes </span></a>
+                        </li>
+                        <li>
+                            <a href="order.html">
+                                <span> Order </span></a>
+                        </li>
+                        <li>
+                            <a href="aboutus.html" class="active">
+                                <span>About Us </span>
+                            </a>
+                        </li>
+                    -->
+
+        </ul>
         </nav>
+        </div>
+        </div>
+
     </header>
 
     <main>
         <div id="main-about-us-image">
-            <h1 id="about-h1">A Little Bit About Us..</h1>
-            <section id="about-us">
-                
-                <div id="left-about">
+            <h1 class="about-h1">A Little Bit About Us..</h1>
+            <section class="about-us">
+
+                <div class="aboutleft-33">
                     <div>
                         <h3>Our Story</h3>
                         <p> Having moved from Lithuania to UK and started as a family business with a team of 2 back in
@@ -52,16 +83,17 @@
                             aria-label="Meet the team (Opens in a new page)"> Meet our Team - Family</a>
                     </div>
                 </div>
-                <div id="center-about">
+                <div class="aboutcenter-34">
                     <div>
                         <h3>Local + Enviromently Friendly</h3>
                         <p> We source 70% of our ingredients from suppliers within 30 miles radius, and get the rest
-                            from Fairtrade business partners. All our packaging is made of 100% recyclable cardboard. </p>
+                            from Fairtrade business partners. All our packaging is made of 100% recyclable cardboard.
+                        </p>
                         <a id="local-farm" href="https://www.bathfarm1.co.uk" target="_blank" rel="noopener"
                             aria-label="Bath Farm (Opens in a new page)"> Have a look at one of our supplier's site</a>
                     </div>
                 </div>
-                <div id="right-about">
+                <div class="aboutright-33">
                     <div>
                         <h3>Supporting Local Charities</h3>
                         <p>10% of our Net monthly profit goes to supporting local charities, which in 2021 is Bath Hope
@@ -76,7 +108,7 @@
 
     </main>
 
-    <footer>
+    <footer class="main_footer">
         <p> Find us at: 77 Sweet Street, Bath, BA01 01AB; Open Monday - Saturday, 10am to 3pm; Phone 01737
             777333; email info@coco&co.com;
             <a id="find-link" href="https://maps.google.com/maps?q=Bath  royal crescent" target="_blank" rel="noopener"
