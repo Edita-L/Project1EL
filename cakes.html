@@ -7,55 +7,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Coco&Co set bakes shop in Bath UK">
     <meta name="keywords" content="cake shop, sweet bakes, Bath, UK">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css"
+        integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
     <link rel="reset" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/teststyle.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Cakes</title>
 </head>
 
 <body class="testbody">
-
     <header class="main_header">
-        <div class="headerrow">
-            <div class="headercolumn_25">
-                <a href="index.html">
-                    <h1 id="logo"> Coco & Co</h1>
-                </a>
-            </div>
-            <div class="headercolumn_75">
-                <nav>
-                    <ul id="nav-links">
-                        <li>
-                            <a href="index.html">
-                                <span>Home </span></a>
-                        </li>
-                        <li>
-                            <a href="cakes.html" class="active">
-                                <span>Cakes </span></a>
-                        </li>
-                        <li>
-                            <a href="order.html">
-                                <span>Order</span></a>
-                        </li>
-                        <li>
-                            <a href="aboutus.html">About Us </a>
-                        </li>
-
-
-
-                    </ul>
-
-                </nav>
-            </div>
+        <div>
+            <a href="index.html">
+                <h1 id="logo"> Coco & Co</h1>
+            </a>
         </div>
+        <div class="pure-menu pure-menu-horizontal">
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item">
+                    <a href="index.html" class="pure-menu-link">
+                        <span>Home </span></a>
+                </li>
+                <li class="pure-menu-item">
+                    <a href="cakes.html" class="active pure-menu-link">
+                        <span>Cakes </span></a>
+                </li>
+                <li class="pure-menu-item">
+                    <a href="order.html" class="pure-menu-link">Order</a>
+                </li>
+                <li class="pure-menu-item">
+                    <a href="aboutus.html" class="pure-menu-link">
+                        <span>About Us </span></a>
+                </li>
+            </ul>
+        </div>
+
+
+
     </header>
 
-    <main>
+    <main class="cakes-body">
         <h1 class="cake-h1"> All Cakes are priced at 2.99 GBP/200g
             <p>**Please make sure to let us know of any allergies or dietary requirements**</p>
         </h1>
-
-
-        <!--   <h3 class="cakes-h3">English Cakes</h3> -->
 
         <section>
             <h3 class="cakes-h3">English Cakes</h3>
@@ -66,6 +59,11 @@
                     </a>
                     <span class="desc">BLUEBERRY VICTORIA With hints of lemon and bursting blueberry fruitiness – subtle
                         additions to traditional recipe make for a mouth-watering showstopper
+                        <div>
+                            <button class="cake-order">
+                                <a href="order.html"> order </a>
+                            </button>
+                        </div>
                     </span>
                 </div>
                 <div class="english-gallery">
@@ -74,6 +72,11 @@
                     </a>
                     <span class="desc"> CARROT CAKE Perfectly spiced with a warmth coming from the cinnamon and
                         ginger, layer of orange buttercream and crunchy pecan nuts
+                        <div>
+                            <button class="cake-order">
+                                <a href="order.html"> order </a>
+                            </button>
+                        </div>
                     </span>
                 </div>
 
@@ -81,7 +84,13 @@
                     <a target="_blank" href="assets/images/eng-chocolate.jpg">
                         <img src="assets/images/eng-chocolate.jpg" alt="Chocolate Brownie" width="300" height="300">
                     </a>
-                    <span class="desc">BROWNIE Gooey, Rich, and Super Chocolatey!</span>
+                    <span class="desc">BROWNIE Gooey, Rich, and Super Chocolatey!
+                        <div>
+                            <button class="cake-order">
+                                <a href="order.html"> order </a>
+                            </button>
+                        </div>
+                    </span>
                 </div>
 
                 <div class="english-gallery">
@@ -89,8 +98,12 @@
                         <img src="assets/images/eng-coffee.jpg" alt="Coffee Walnut Cake" width="300" height="300">
                     </a>
                     <span class="desc">COFFEE-WALLNUT Sumptuous coffee sponge with two layers of indulgent coffee
-                        frosting,
-                        topped with more frosting & walnut halves
+                        frosting, topped with more frosting & walnut halves
+                        <div>
+                            <button class="cake-order">
+                                <a href="order.html"> order </a>
+                            </button>
+                        </div>
                     </span>
                 </div>
             </div>
@@ -106,6 +119,11 @@
                     </a>
                     <span class="desc">CANELES A caramelised crust with a soft custardy heart, this original Canelé is
                         lightly scented with natural vanilla extract
+                        <div>
+                            <button class="cake-order">
+                                <a href="order.html"> order </a>
+                            </button>
+                        </div>
                     </span>
                 </div>
                 <div class="french-gallery">
@@ -116,6 +134,11 @@
                         pastry
                         filled with
                         creamy vanilla cream and topped with locally grown juicy strawberries
+                        <div>
+                            <button class="cake-order">
+                                <a href="order.html"> order </a>
+                            </button>
+                        </div>
                     </span>
                 </div>
 
@@ -127,6 +150,11 @@
                         meringue
                         and whipped
                         cream or buttercream
+                        <div>
+                            <button class="cake-order">
+                                <a href="order.html"> order </a>
+                            </button>
+                        </div>
                     </span>
                 </div>
 
@@ -138,6 +166,11 @@
                         and
                         fresh
                         strawberries make the most delicious summer cake
+                        <div>
+                            <button class="cake-order">
+                                <a href="order.html"> order </a>
+                            </button>
+                        </div>
                     </span>
                 </div>
             </div>
@@ -155,6 +188,11 @@
                     <span class="desc">NAPOLEON Made with lots of thin layers of crispy pastry filled with creamy
                         custard,
                         this is a comforting dessert
+                        <div>
+                            <button class="cake-order">
+                                <a href="order.html"> order </a>
+                            </button>
+                        </div>
                     </span>
                 </div>
                 <div class="lith-gallery">
@@ -164,6 +202,11 @@
                     <span class="desc">ANTHOUSE not a cake in traditional sense.. Thin layers of crispy dough, topped
                         with
                         honey syrup and poppy seeds. For honey lovers!
+                        <div>
+                            <button class="cake-order">
+                                <a href="order.html"> order </a>
+                            </button>
+                        </div>
                     </span>
                 </div>
 
@@ -174,6 +217,11 @@
                     <span class="desc">BLUEBERRY & CURD Traditional Lithuanian cake, made with light as a cloud curd,
                         zingy
                         lemon and sweet blueberries - great for summer parties
+                        <div>
+                            <button class="cake-order">
+                                <a href="order.html"> order </a>
+                            </button>
+                        </div>
                     </span>
                 </div>
 
@@ -184,6 +232,11 @@
                     <span class="desc"> HUNDRED LEAF this one is difficult to master and was only ever had for
                         special occassions. Thin stretchy moreish layers, sprinkled with lots of poppy seeds..treat
                         yourself!
+                        <div>
+                            <button class="cake-order">
+                                <a href="order.html"> order </a>
+                            </button>
+                        </div>
                     </span>
                 </div>
             </div>
