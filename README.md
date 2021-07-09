@@ -1,7 +1,10 @@
- ![Logo](assets/images/logo.png)
+ ![GitHub Logo](assets/images/Logo.jpg)
+
+![GitHub Responsive](assets/images/responsive.jpg)
 
 
 # Coco & Co Sweet Bakes Shop
+
 
 ## https://edita-l.github.io/Project1EL/
 
@@ -10,6 +13,10 @@
 1. Introduction
 2. UX
 3. Wireframe
+4. Visual Identity
+5. Site Overview
+6. User Stories
+7. Testing
 
 ---
 
@@ -66,6 +73,7 @@ I have attampted to create an uncluttered and  responsive site with a very simpl
 
 Due to having a few large images on the site which took long to load and for the purpose of improving user experience, I have compressed the images using tinypng.co.
 
+---
 
 ## Wireframe
 
@@ -73,7 +81,73 @@ The wireframe was designed using Balsamiq.
 It has a basic intial structure, which remained throughout the project, with the styling slightly changed/enchanced for better viewing experience.
 
 Below is a link to all my wireframes:
-[a relative link](pdfs/wireframe-project1.pdf)
+![a relative link](pdfs/wireframe-project1.pdf)
+
+---
+
+## Visual Identity
+
+ For the logo, I wanted to use a simple word format in a classical font, to make it universal and appealing.
+
+ I have used mainly combination of three colors, to enchance contunuity, seperate sections and to keep it uniform.
+ The Cake page has an addition of extra color, to seperate sections and to make it tthe slightly unique central point of site.
+
+ The Header and Footer are in the same font color, with clickable link changing to indigo on hovering, again, to keep it uniform and to give preditability for user.
+
+ ## Site Overview
+
+ Images below show overview of the site:
+ ![GitHub Responsive](assets/images/so1.jpg)
+
+
+ ![GitHub Responsive](assets/images/so2.jpg)
+
+
+ ![GitHub Responsive](assets/images/so3.jpg)
+
+
+ ![GitHub Responsive](assets/images/so4.jpg)
+
+
+ ![GitHub Responsive](assets/images/so5.jpg)
+
+---
+## User Stories
+
+Users:
+*The site is designed for people looking to buy some cake either by placing order online or by visiting shop in Bath.*
+
+*  As a user, I'd like to easily see information about shop address and opening times.
+* As a user, I'd like to see different cakes available to buy and to read breif description of them.
+* As a user, I'd like to know if bsuiness is sustainable and dedicated to being enviroment friendly.
+* As a user, I'd like to see photos and social media posts showing the business as it operates on a daily basis.
+* As a user, I'd like to be able to contact the shop easily either by phone or email.
+* As a user, id like to access location through google maps by a click and not having to type in address.
+
+Coco&Co business owner:
+
+* As a business owner, I'd like to show potential customers that they will have a good choice of cakes, clearly priced.
+*   As a business owner, I'd like for potential customers to have a clear idea of our business location and opening times.
+*    As a business owner, I'd like for potential customers to have an understanding of where we come from and our ethos as abusiness.
+*   As a business owner, I want to offer customers the option of ordering via the site.
+*   As a business owner, I'd like to share a glimpse of our life through our social media posts.
+*   As a business owner, it's important to me that any user/ potential customer viewing the site has the best experience and is able to easily access all the relevant sections with one click.
+
+## Testing 
+My website has been tested through the GTMetrix site,   
+[GTmetrix](https://gtmetrix.com "GTmetrix Homepage")
+Below is a screenshot of the results achieved, with performance and structure graded A by GTmetrix.
+
+![GitHub Responsive](assets/images/gtmetrix-el.jpg)
+
+The site was tested on various platforms to ensure proper display across different screen sizes.
+
+
+The HTML was validated on W3C Validator and speed tested on Pingdom
+
+
+
+
  
 
 
