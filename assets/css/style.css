@@ -216,7 +216,7 @@
 }
 
 .order-form label {
-    background-color;
+    
     font-family: Roboto, sans-serif;
     color: rgb(8, 109, 124);
     text-align: right;
@@ -319,8 +319,9 @@
     text-align: center;
     font-family: Roboto, sans-serif;
     background-color: rgba(205, 205, 214, 0.795);
-    font-size: 1.1rem;
-    padding-top: 10px;
+    font-size: 1.3rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .english-gallery .french-gallery .lith-gallery {
