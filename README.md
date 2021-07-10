@@ -81,7 +81,7 @@ The wireframe was designed using Balsamiq.
 It has a basic intial structure, which remained throughout the project, with the styling slightly changed/enchanced for better viewing experience.
 
 Below is a link to all my wireframes:
-![a relative link](pdfs/wireframe-project1.pdf)
+![My Wireframes](pdfs/wireframe-project1.pdf)
 
 ---
 
