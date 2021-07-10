@@ -17,6 +17,7 @@
 5. Site Overview
 6. User Stories
 7. Testing
+8. Technologies
 
 ---
 
@@ -38,8 +39,6 @@ I have attampted to create an uncluttered and  responsive site with a very simpl
      *  Navigation bar and Logo in the center of the Header allows quick access to each page without having to click Back button;
     *    Footer Bar running though each page gives Opening times, Location of the Shop by clickbale Find Us Link (which takes user to google maps) as well as links to social media accounts;
     *    design is identiacal throughout the site on all pages for continuity. 
-
-
 
 *   **Home page:**
 
@@ -108,9 +107,9 @@ Below is a link to all my wireframes:
 ---
 ## User Stories
 
-Users:
 *The site is designed for people looking to buy some cake either by placing order online or by visiting shop in Bath.*
 
+**Users:**
 *  As a user, I'd like to easily see information about shop address and opening times.
 * As a user, I'd like to see different cakes available to buy and to read breif description of them.
 * As a user, I'd like to know if bsuiness is sustainable and dedicated to being enviroment friendly.
@@ -119,13 +118,14 @@ Users:
 * As a user, I'd like to access location through google maps by a click and not having to type in address.
 
 Coco&Co business owner:
-
 * As a business owner, I'd like to show potential customers that they will have a good choice of cakes, clearly priced.
-*   As a business owner, I'd like for potential customers to have a clear idea of our business location and opening times.
-*    As a business owner, I'd like for potential customers to have an understanding of where we come from and our ethos as abusiness.
-*   As a business owner, I want to offer customers the option of ordering via the site.
-*   As a business owner, I'd like to share a glimpse of our life through our social media posts.
-*   As a business owner, it's important to me that any user/ potential customer viewing the site has the best experience and is able to easily access all the relevant sections with one click.
+* As a business owner, I'd like for potential customers to have a clear idea of our business location and opening times.
+* As a business owner, I'd like for potential customers to have an understanding of where we come from and our ethos as abusiness.
+* As a business owner, I want to offer customers the option of ordering via the site.
+* As a business owner, I'd like to share a glimpse of our life through our social media posts.
+* As a business owner, it's important to me that any user/ potential customer viewing the site has the best experience and is able to easily access all the relevant sections with one click.
+
+---
 
 ## Testing 
 My website has been tested through the GTMetrix site,   
@@ -136,8 +136,28 @@ Below is a screenshot of the results achieved, with performance and structure gr
 
 The site was tested on various platforms to ensure proper display across different screen sizes.
 
+---
 
-The HTML was validated on W3C Validator and speed tested on Pingdom
+## Technologies
+**Languages and Frameworks**
+* HTML
+* CSS
+
+**Tools Used**
+* Balsamiq: for creating wireframes
+* Github and Gitpod: for creating and editing code
+* Font Awesome: used for icons
+* Google Fonts: Quicksand and Roboto fonts imported from google fonts
+* Responsive Viewer: a google chrome extension used to test site at different screen sizes
+* TinyPNG used to compress images
+* W3C Validator used to validate HTML code
+* CSS Validator used for checking CSS code
+* Am I Responsive used for showing site views for different screen sizes.
+* Bootstrap for Jumbotron used on Index page
+
+---
+
+
 
 
 
