@@ -18,13 +18,13 @@
 6. User Stories
 7. Testing
 8. Technologies
+9. Acknowledgments and Thanks
 
 ---
 
 ## Introduction
 
 *Note: This site is for a fictitious business, created purely for the purpose of my 1st Project. It is my first Milestone for the Code Institute Diploma in Full Stack Development*
-
 
 Coco &Co is a Bakery shop in Bath, offering to buy selection of English, French and Lithuanian cakes, baked from mainly locally grown and sourced produce. It is created by and for lovers of sweet bakes who are looking to buy a treat in Bath area.
 
@@ -35,10 +35,10 @@ Coco &Co is a Bakery shop in Bath, offering to buy selection of English, French 
 I have attampted to create an uncluttered and  responsive site with a very simple and clean home page where the main feature is an inviting backround and an easy access to The Cake page where a range of products is displayed.  Full viewport sets the tone for the rest of the site. The goal is to give a clear idea of products offered and use bright and inviting colours.
 
 - **The header and footer:**
-    *   consistent throughout Home, Cakes, Order and About Us pages;
-     *  Navigation bar and Logo in the center of the Header allows quick access to each page without having to click Back button;
-    *    Footer Bar running though each page gives Opening times, Location of the Shop by clickbale Find Us Link (which takes user to google maps) as well as links to social media accounts;
-    *    design is identiacal throughout the site on all pages for continuity. 
+    * Consistent throughout Home, Cakes, Order and About Us pages;
+     * Navigation bar and Logo in the center of the Header allows quick access to each page without having to click Back button;
+    * Footer Bar running though each page gives Opening times, Location of the Shop by clickbale Find Us Link (which takes user to google maps) as well as links to social media accounts;
+    * Design is identiacal throughout the site on all pages for continuity. 
 
 *   **Home page:**
 
@@ -156,6 +156,15 @@ The site was tested on various platforms to ensure proper display across differe
 * Bootstrap for Jumbotron used on Index page
 
 ---
+
+## Acknowledgments and Thanks
+* Massive thank you to Felipe Alarcon for all the support, advise, ideas and feedback.
+* David Walsh Blog for reset css
+* Pure CSS for styling Header navigation links
+* MarkdwonGuide
+* Stack Overload
+* Unsplash and BirzuDuona for images
+* Google
 
 
 
