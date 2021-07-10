@@ -1,4 +1,3 @@
-/*new style*/
 
 .main_header,
 .main_footer {
@@ -23,8 +22,6 @@
     color: #e0eef3f5;
     text-align: center;
 }
-
-
 
 #logo:hover {
     color: indigo;
@@ -156,7 +153,6 @@
 }
 
 @media screen and (min-width: 800px) {
-
     .aboutleft-33,
     .aboutright-33 {
         flex: 3.3;
@@ -166,7 +162,6 @@
         flex: 3.4;
     }
 
-    /*cakes*/
     #english-row {
         display: flex;
         flex-direction: row;
@@ -280,7 +275,6 @@
     padding:10px;
     margin:10px;
     border:1px solid #e0eef3f5;
-    
 }
 
 .cake-order:hover {
@@ -291,17 +285,14 @@
 .lith-gallery {
     padding-bottom: 30px;;
 }
-
-
-
 /* test-order style */
-
 .form-section {
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
     background: url('../images/hero-image2.jpg') no-repeat center center;
     background-size: cover;
+    padding-right:10px;
 }
 
 .order-form {
@@ -311,11 +302,9 @@
     grid-gap: 20px;
     padding-top: 10px;
     margin: 0 auto;
-
 }
 
 .order-form label {
-
     font-family: Roboto, sans-serif;
     color: rgb(8, 109, 124);
     text-align: right;
@@ -338,12 +327,11 @@
     margin: 5px 0 10px 0;
     background-color: rgba(219, 212, 212, 0.795);
     border: 2px solid rgb(102, 100, 91);
-
 }
 
 .order-submit {
     font-family: Roboto, sans-serif;
-    font-weight: bolder;
+    margin-bottom: 10px;
     color: rgb(9, 58, 42);
     background-color: goldenrod;
     display: inline-block;
@@ -364,7 +352,6 @@
 }
 
 /*style Test-index */
-
 .hero-image {
     width: 100%;
     max-width: 1300px;
@@ -376,7 +363,6 @@
     align-content: center;
 }
 
-/**testindex centre div**/
 .jumbotron {
     width: 50%;
     padding: 3rem 1rem;
@@ -386,11 +372,10 @@
     font-size: 1.3rem;
     font-family: Quicksand, sans-serif;
     color: #e0eef3f5;
-    margin-left: 20%;
+    margin-left: 25%;
     margin-top: 10%;
     margin-bottom: 10%; 
-    
-}
+ }
 
 .btn-cakes {
     background-color: rgb(8, 109, 124);
@@ -400,13 +385,11 @@
     font-family: Roboto, sans-serif;
     color: #e0eef3f5;
     padding:15px;
-    
 }
 
 .btn-cakes:hover {
     background-color: indigo;
 }
-
 
 @media screen and (max-width: 440px) {
     .pure-menu-link,
@@ -414,5 +397,4 @@
         padding: 5px;
         font-size: 1rem;
     }
-
 }
