@@ -1,4 +1,3 @@
-
 .main_header,
 .main_footer {
     width: 100%;
@@ -53,7 +52,7 @@
 .main_footer {
     text-align: center;
     color: #e0eef3f5;
-    
+
 }
 
 .main_footer a {
@@ -61,7 +60,7 @@
     text-decoration: none;
 }
 
-.footer-contact, 
+.footer-contact,
 .social-networks {
     list-style: none;
     padding-inline-start: 0;
@@ -78,7 +77,7 @@
 .social-networks {
     text-align: center;
     font-size: 2rem;
-   margin:0 auto;
+    margin: 0 auto;
 }
 
 .social-networks a:hover {
@@ -153,6 +152,7 @@
 }
 
 @media screen and (min-width: 800px) {
+
     .aboutleft-33,
     .aboutright-33 {
         flex: 3.3;
@@ -193,6 +193,7 @@
     }
 
 }
+
 /**test-cakes**/
 .cakes-body {
     width: 100%;
@@ -210,22 +211,40 @@
     padding-bottom: 15px;
 }
 
-.english-gallery .french-gallery .lith-gallery {
+.english-gallery,
+.french-gallery,
+.lith-gallery {
     flex-basis: 100%;
 }
 
 .desc {
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
     text-align: center;
     display: block;
     color: #e0eef3f5;
     font-family: Quicksand, sans-serif;
     font-size: 1rem;
-    margin:0 auto;
+    margin: 0 auto;
 }
+
 .center-order {
     text-align: center;
-    margin:0;
+    margin: 0;
+    padding: 15px;
+}
+
+.cake-order {
+    background-color: rgba(191, 191, 223, 0.795);
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #e0eef3f5;
+}
+
+.cake-order:hover {
+    background-color: #e0eef3f5;
+    text-decoration: underline;
 }
 
 .english-gallery img {
@@ -264,27 +283,11 @@
     background-color: rgba(191, 191, 223, 0.795);
 }
 
-.cake-order {
-    background-color: rgba(191, 191, 223, 0.795);
-    font-size: 0.9rem;
-}
-
-.cake-order {
-    text-decoration: none;
-    text-align: center;
-    padding:10px;
-    margin:10px;
-    border:1px solid #e0eef3f5;
-}
-
-.cake-order:hover {
-    background-color: #e0eef3f5;
-    text-decoration: underline;
-}
-
 .lith-gallery {
-    padding-bottom: 30px;;
+    padding-bottom: 30px;
+    ;
 }
+
 /* test-order style */
 .form-section {
     width: 100%;
@@ -292,7 +295,7 @@
     margin: 0 auto;
     background: url('../images/hero-image2.jpg') no-repeat center center;
     background-size: cover;
-    padding-right:10px;
+    padding-right: 10px;
 }
 
 .order-form {
@@ -301,7 +304,10 @@
     grid-template-columns: auto auto;
     grid-gap: 20px;
     padding-top: 10px;
-    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 
 .order-form label {
@@ -374,8 +380,8 @@
     color: #e0eef3f5;
     margin-left: 25%;
     margin-top: 10%;
-    margin-bottom: 10%; 
- }
+    margin-bottom: 10%;
+}
 
 .btn-cakes {
     background-color: rgb(8, 109, 124);
@@ -384,7 +390,7 @@
     text-decoration: none;
     font-family: Roboto, sans-serif;
     color: #e0eef3f5;
-    padding:15px;
+    padding: 15px;
 }
 
 .btn-cakes:hover {
@@ -392,6 +398,7 @@
 }
 
 @media screen and (max-width: 440px) {
+
     .pure-menu-link,
     .btn-cakes {
         padding: 5px;

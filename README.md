@@ -99,15 +99,9 @@ Below is a link to all my wireframes:
  Images below show overview of the site:
  ![GitHub Responsive](assets/images/so1.jpg)
 
-
  ![GitHub Responsive](assets/images/so2.jpg)
 
-
  ![GitHub Responsive](assets/images/so3.jpg)
-
-
- ![GitHub Responsive](assets/images/so4.jpg)
-
 
  ![GitHub Responsive](assets/images/so5.jpg)
 
@@ -122,7 +116,7 @@ Users:
 * As a user, I'd like to know if bsuiness is sustainable and dedicated to being enviroment friendly.
 * As a user, I'd like to see photos and social media posts showing the business as it operates on a daily basis.
 * As a user, I'd like to be able to contact the shop easily either by phone or email.
-* As a user, id like to access location through google maps by a click and not having to type in address.
+* As a user, I'd like to access location through google maps by a click and not having to type in address.
 
 Coco&Co business owner:
 
