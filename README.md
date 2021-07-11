@@ -4,8 +4,6 @@
 
 
 # Coco & Co Sweet Bakes Shop
-
-
 ## https://edita-l.github.io/Project1EL/
 
 ---
@@ -134,7 +132,23 @@ Below is a screenshot of the results achieved, with performance and structure gr
 
 ![GitHub Responsive](assets/images/gtmetrix-el.jpg)
 
-The site was tested on various platforms to ensure proper display across different screen sizes.
+I have tested the site on a number of occasions throughout the building process, so that I could see it from different devices such as my mobile, tablet and PC and check for responsiveness.
+
+# Issues and Changes Implemented
+During this testing I realised that I had to make some design changes to areas that I was not satisfied with, to make it more easy to navigate, user firendly and improve the viewing experience on the mobile devices.
+I have therefore made many changes as I went along in order to make it more responsive or easier to navigate. Some of these changes are listed below:
+* Initially Index Page had just navigation link listed at the top. I have added the central To Cakes call of action button to make it easier to reach the product page
+* The header was not responsive enough on mobile devices so i have used pure CSS code to make nav bar more responsive.
+* The Herader coponents were alligned to the sides of the screen to start with, but were centered to make it more appealing from UX point of view.
+* The Index page backgrounf image and call of action button were initailly set as seperate divs and would overlap when tested on different screensizes. This was overcome by using bootstrap jumbotron.
+* The footer was changed from orignal p style into unordered list to make it more readable on different devices
+* some of the backgrounfd colors (on Index and Order pages) have needed adjusting to make the text displayed over them more easy to read.
+* While testing I realised few links were not working where I have mistyped addresses, those were rectrified.
+* About Us page sections where not alligning properly on different size screens, I have added a flex grid to overcome that issue.
+* Having noticed that images overstretch horizontally on larger screens, max-width has been added to each page main section to resolve this.
+
+
+
 
 ---
 
