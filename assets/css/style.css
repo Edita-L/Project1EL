@@ -319,7 +319,7 @@
     border: 2px solid rgb(102, 100, 91);
 }
 
-.comment {
+#comment {
     width: 50vw;
     height: 200px;
     margin: 5px 0 10px 0;
