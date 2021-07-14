@@ -24,13 +24,13 @@
 
 *Note: This site is for a fictitious business, created purely for the purpose of my 1st Project. It is my first Milestone for the Code Institute Diploma in Full Stack Development*
 
-Coco &Co is a Bakery shop in Bath, offering to buy a selection of English, French and Lithuanian cakes, baked from mainly locally grown and sourced produce. It is created by and for lovers of sweet bakes who are looking to buy a treat in Bath area.
+Coco&Co is a Bakery shop in Bath, offering to buy a selection of English, French and Lithuanian cakes, baked from mainly locally grown and sourced produce. It is created by and for lovers of sweet bakes who are looking to buy a treat in Bath area.
 
 ---
 
 ## User Experience (UX)
 
-I have attampted to create an uncluttered and responsive site with a very simple and clean home page where the main feature is an inviting background and an easy access to The Cake page link, where a range of products is displayed.  Full viewport sets the tone for the rest of the site. The goal is to give a clear idea of products offered and use bright and inviting colours.
+I have attampted to create an uncluttered and responsive site with a very simple and clean home page where the main feature is an inviting background and an easy access to The Cake page link, with a range of products is displayed.  Full viewport sets the tone for the rest of the site. The goal is to give a clear idea of products offered and use bright and inviting colours.
 
 - **The header and footer:**
     * Consistent throughout Home, Cakes, Order and About Us pages;
@@ -76,11 +76,11 @@ The wireframe was designed using Balsamiq.
 It has a basic intial structure, which remained throughout the project, with the styling slightly changed/enchanced for better viewing experience.
 
 Below is a link to all my wireframes:
-# ![My Wireframes](pdfs/wireframe-project1.pdf)
+## ![My Wireframes](pdfs/wireframe-project1.pdf)
 
 * First page shows initial design idea for Home page, which has been since styled slightly differently to have more readable page layout. The main feautres are call of action button in the centre, preceeded by some introductory text. The Logo and Nav links are located in the header, with contact and social account information in the footer.
-* Second page shows the layout of products, split into three diffrent sections layed out along the page
-* Third page- order form, shows original simplified idea for sending potential enquiries
+* Second page shows the layout of products, split into three diffrent sections layed out along the page.
+* Third page - order form, shows original simplified idea for sending potential enquiries.
 * Final page is for displaying three short sections of information about basics of the company history and ethos.
 
 ---
@@ -90,9 +90,9 @@ Below is a link to all my wireframes:
  For the logo, I wanted to use a simple word format in a classical font, to make it universal and appealing.
 
  I have used mainly combination of three colors, to enchance contunuity, seperate sections and to keep it uniform.
- The Cake page has an addition of extra color, to seperate sections and to make it tthe slightly unique central point of site.
+ The Cake page has an addition of extra color, to seperate sections and to make it slightly different central point of site.
 
- The Header and Footer are in the same font color, with clickable link changing to indigo on hovering, again, to keep it uniform and to give preditability for user.
+ The Header and Footer are in the same font color, with clickable link changing to indigo on hovering, again, to keep it uniform and to give predictability for user.
 
  ## Site Overview
 
@@ -121,7 +121,7 @@ Below is a link to all my wireframes:
 Coco&Co business owner:
 * As a business owner, I'd like to show potential customers that they will have a good choice of cakes, clearly priced.
 * As a business owner, I'd like for potential customers to have a clear idea of our business location and opening times.
-* As a business owner, I'd like for potential customers to have an understanding of where we come from and our ethos as abusiness.
+* As a business owner, I'd like for potential customers to have an understanding of where we come from and our ethos as a business.
 * As a business owner, I want to offer customers the option of ordering via the site.
 * As a business owner, I'd like to share a glimpse of our life through our social media posts.
 * As a business owner, it's important to me that any user/ potential customer viewing the site has the best experience and is able to easily access all the relevant sections with one click.
@@ -137,18 +137,19 @@ Below is a screenshot of the results achieved, with performance and structure gr
 
 I have tested the site on a number of occasions throughout the building process, so that I could see it from different devices such as my mobile, tablet and PC and check for responsiveness.
 
-# Issues and Changes Implemented
+### **Issues and Changes Implemented**
+
 During this testing I realised that I had to make some design changes to areas that I was not satisfied with, to make it more easy to navigate, user firendly and improve the viewing experience on the mobile devices.
 I have therefore made many changes as I went along in order to make it more responsive or easier to navigate. Some of these changes are listed below:
-* Initially Index Page had just navigation link listed at the top and hero image, followed by footer. I have added the central To Cakes call of action button to make it easier to reach the product page
-* The Header was not responsive enough on mobile devices so i have used pure CSS code to make nav bar more responsive.
-* The Header components were alligned to the sides of the screen to start with, but were centered to make it more appealing from UX point of view.
-* The Index page background image and call of action button were initailly set as seperate divs and would overlap when tested on different screensizes. This was overcome by using bootstrap jumbotron.
-* The footer was changed from orignal p style into unordered list to make it more readable on different devices.
-* The Order section was found to not fit into smaller screems properly, adding some padding have corrected it.
-* Some of the backgrounfd colors (on Index and Order pages) have needed adjusting to make the text displayed over them more easy to read.
-* While testing I realised few links were not working where I have mistyped addresses, those were rectrified.
-* About Us page sections where not alligning properly on different size screens, I have added a flex grid to overcome that issue. It has also appeared to have too long paragraphs to keep visitor interested, which were concentrated and shortened since.
+* Initially Index Page had just navigation link listed at the top and hero image, followed by footer. I have added the central To Cakes call of action button to make it easier to reach the product page.
+* The Header was not responsive enough on mobile devices so I have used pure CSS code to make nav bar more responsive.
+* The Header components were aligned to the sides of the screen to start with, but were centered to make it more appealing from UX point of view.
+* The Index page background image and call of action button were initially set as separate divs and would overlap when tested on different screen sizes. This was overcome by using bootstrap jumbotron.
+* The footer was changed from original p style into unordered list to make it more readable on different devices.
+* The Order section was found to not fit into smaller screens properly, adding some padding have corrected it.
+* Some of the background colors (on Index and Order pages) have needed adjusting to make the text displayed over them more easy to read.
+* While testing I realised few links were not working where I have mistyped addresses, those were rectified.
+* About Us page sections where not aligning properly on different size screens, I have added a flex grid to overcome that issue. It has also appeared to have too long paragraphs to keep visitor interested, which were concentrated and shortened since.
 * Having noticed that images overstretch horizontally on larger screens, max-width has been added to each page main section to resolve this.
 
 *Changes I would still like to add:*
@@ -156,12 +157,12 @@ I have therefore made many changes as I went along in order to make it more resp
 * *Improving Order Form, to have an option of adding things to basket, continue to the payment page etc.*
 
 **As a User I was able to:**
-* See contact information clearly either straight awayat the bottom of page or by scrolling down on smaller devices 
+* See contact information clearly either straight away at the bottom of page or by scrolling down on smaller devices 
 * Be taken to the product page by clicking on central button in Home page
-* See images of producst and click on 'Order' link from Cakes page
+* See images of products and click on 'Order' link from Cakes page
 * Get basic information about business ethos from AboutUs page accesible from top nav bar
 * Access company's social media accounts from footer on each page.
-* Contact business by email or phone by clicking a relavnet field in footer and not having to type text/numbers in.
+* Contact business by email or phone by clicking a relevant field in footer and not having to type text/numbers in.
 * Forward order and any comments/enquiries by clicking on Order tab in Nav Links and filling Order form.
 
 ---
@@ -180,7 +181,7 @@ I have therefore made many changes as I went along in order to make it more resp
 * TinyPNG used to compress images
 * W3C Validator used to validate HTML code
 * CSS Validator used for checking CSS code
-* Am I Responsive used for showing site views for different screen sizes.
+* Am I Responsive used for showing site views for different screen sizes
 * Bootstrap for Jumbotron used on Index page
 
 ---
@@ -193,6 +194,8 @@ I have therefore made many changes as I went along in order to make it more resp
 * Stack Overload
 * Unsplash and BirzuDuona for images
 * Google
+
+---
 
 
 
