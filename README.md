@@ -137,6 +137,8 @@ Below is a screenshot of the results achieved, with performance and structure gr
 
 I have tested the site on a number of occasions throughout the building process, so that I could see it from different devices such as my mobile, tablet and PC and check for responsiveness.
 
+The site was tested on CSS and HTML Validator sites. There were some syntax mistakes, missed characters etc, that have been updated.
+
 ### **Issues and Changes Implemented**
 
 During this testing I realised that I had to make some design changes to areas that I was not satisfied with, to make it more easy to navigate, user firendly and improve the viewing experience on the mobile devices.
